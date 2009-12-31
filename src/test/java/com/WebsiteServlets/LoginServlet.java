@@ -33,8 +33,9 @@ public class LoginServlet extends HttpServlet {
 			rs=stmt.executeQuery();
 			if(rs.next()) { // if there any record found
 				HttpSession session=req.getSession();
-				session.setAttribute("username",username);
-				session.setAttribute("password", password);
+				session.setAttribute("username",rs.getString("name"));
+				session.setAttribute("mail", rs.getString("email"));
+				session.setAttribute("mno", rs.getString("mobile"));
 				if(rs.getBoolean("role")) { // IF USER IS AN ADMIN
 					rep.sendRedirect("AdminPage.jsp");
 				}
