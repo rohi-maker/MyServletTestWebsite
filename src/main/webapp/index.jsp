@@ -154,8 +154,8 @@ button{
         
         <div class="social">
        
-          <div class="go"><i class="fab fa-google"></i>  Google</div>
-          <div class="fb"><i class="fab fa-facebook"></i>  Facebook</div>
+          <div class="go"><i class="fab fa-google" ></i><a href="google.com">Google</a></div>
+          <div class="fb"><i class="fab fa-facebook"></i><a href="facebook.com"> Facebook</a>  </div>
         </div>
     </form>
 </body>

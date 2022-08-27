@@ -34,4 +34,14 @@
   <url-pattern>/signup</url-pattern>
   </servlet-mapping>
   
+  <servlet>
+  <servlet-name>HomeServlet</servlet-name>
+  <servlet-class>com.WebsiteServlets.HomeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>HomeServlet</servlet-name>
+  <url-pattern>/home</url-pattern>
+  </servlet-mapping>
+  
+  
 </web-app>

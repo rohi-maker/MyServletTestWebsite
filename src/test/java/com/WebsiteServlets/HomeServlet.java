@@ -6,8 +6,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class SignupServlet extends HttpServlet {
+public class HomeServlet extends HttpServlet {
 	public void doPost(HttpServletRequest req,HttpServletResponse rep) throws IOException {
-		rep.sendRedirect("Signupform.html");
+		rep.getWriter().println("INSIDE THE HOME PAGE");
 	}
 }
