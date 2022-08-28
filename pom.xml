@@ -26,7 +26,26 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+    
+    <!-- https://mvnrepository.com/artifact/taglibs/standard -->
+<dependency>
+    <groupId>taglibs</groupId>
+    <artifactId>standard</artifactId>
+    <version>1.1.2</version>
+</dependency>
+
+    
+    <!-- https://mvnrepository.com/artifact/javax.el/javax.el-api -->
+<dependency>
+    <groupId>javax.el</groupId>
+    <artifactId>javax.el-api</artifactId>
+    <version>3.0.1-b06</version>
+</dependency>
+
+    
     <dependency>
+    
+    
     <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
 
     <groupId>javax.servlet</groupId>
@@ -35,6 +54,19 @@
     <scope>provided</scope>
 
     </dependency>
+    
+    
+    <!-- https://mvnrepository.com/artifact/javax.servlet.jsp.jstl/jstl -->
+
+
+<!-- https://mvnrepository.com/artifact/javax.servlet.jsp.jstl/jstl-api -->
+<dependency>
+    <groupId>javax.servlet.jsp.jstl</groupId>
+    <artifactId>jstl-api</artifactId>
+    <version>1.2</version>
+</dependency>
+
+
     
     <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 <dependency>

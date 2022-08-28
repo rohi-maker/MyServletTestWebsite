@@ -144,13 +144,13 @@ button{
         <h3>Login Here</h3>
 
         <label for="username">Email ID</label>
-        <input type="email" placeholder="Email-ID" name="username">
+        <input type="email" placeholder="Email-ID" name="email">
 
         <label for="password">Password</label>
         <input type="password" placeholder="Password" name="password">
 
         <button>Log In</button>
-         <button formaction="signup">Sign-Up now</button>
+         <button formaction="Signupform.html">Sign-Up now</button>
         
         <div class="social">
        

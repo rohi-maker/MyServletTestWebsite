@@ -8,6 +8,6 @@ import javax.servlet.http.HttpServletResponse;
 
 public class HomeServlet extends HttpServlet {
 	public void doPost(HttpServletRequest req,HttpServletResponse rep) throws IOException {
-		rep.getWriter().println("INSIDE THE HOME PAGE");
+		rep.sendRedirect("HomePage.jsp");
 	}
 }
