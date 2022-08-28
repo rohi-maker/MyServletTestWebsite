@@ -36,6 +36,17 @@
   </servlet-mapping>
   
   <servlet>
+  <servlet-name>Addpost</servlet-name>
+  <servlet-class>com.WebsiteServlets.AddPostServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Addpost</servlet-name>
+  <url-pattern>/addpost</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
   <servlet-name>HomeServlet</servlet-name>
   <servlet-class>com.WebsiteServlets.HomeServlet</servlet-class>
   </servlet>
